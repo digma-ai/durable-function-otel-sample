@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    }
+  },
+  "telemetryMode": "openTelemetry",
+  "extensions": {
+    "durableTask": {
+      "tracing": {
+        "traceInputsAndOutputs": true,
+        "traceReplayEvents": true,
+        "DistributedTracingEnabled": true,
+        "Version": "V2"
+      },
+      "storageProvider": {
+        "type": "AzureStorage"
+      }
+    }
+  }
+}
