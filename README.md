@@ -41,3 +41,7 @@ OTEL_EXPORTER_OTLP_ENDPOINT=OTEL_COLLECTOR_URL
 OTEL_RESOURCE_ATTRIBUTES=digma.environment={YOUR_ENV_NAME},digma.environment.type=Public
 
 ```
+
+The complete trace:
+<img width="863" alt="image" src="https://github.com/user-attachments/assets/cb6dc913-799e-4a28-adfb-0a012e9cc639" />
+
